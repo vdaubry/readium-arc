@@ -23,6 +23,31 @@
 		28075E96172801140020F643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28075E71172801140020F643 /* Foundation.framework */; };
 		28075E9E172801140020F643 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28075E9C172801140020F643 /* InfoPlist.strings */; };
 		28075EA1172801140020F643 /* readium_arcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28075EA0172801140020F643 /* readium_arcTests.m */; };
+		28075EB8172801A70020F643 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28075EB7172801A70020F643 /* CFNetwork.framework */; };
+		28075EBA172801AF0020F643 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 28075EB9172801AF0020F643 /* libxml2.dylib */; };
+		28075EBC172801B50020F643 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 28075EBB172801B50020F643 /* libz.dylib */; };
+		28E94A7F1728057B002314DF /* libePub3-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E94A7C172802AC002314DF /* libePub3-iOS.a */; };
+		28E94AA81728071A002314DF /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A821728071A002314DF /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AA91728071A002314DF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A841728071A002314DF /* BaseViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AAA1728071A002314DF /* BundleURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A861728071A002314DF /* BundleURLProtocol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AAB1728071A002314DF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A881728071A002314DF /* Constants.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AAC1728071A002314DF /* EPubURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A8A1728071A002314DF /* EPubURLProtocol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AAD1728071A002314DF /* EPubURLProtocolBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A8C1728071A002314DF /* EPubURLProtocolBridge.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AAE1728071A002314DF /* HTMLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A8E1728071A002314DF /* HTMLUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AAF1728071A002314DF /* LocStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A901728071A002314DF /* LocStr.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AB01728071A002314DF /* LocStrError.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A921728071A002314DF /* LocStrError.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AB11728071A002314DF /* PackageResourceCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A941728071A002314DF /* PackageResourceCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AB21728071A002314DF /* PackageResourceServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A961728071A002314DF /* PackageResourceServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AB31728071A002314DF /* RDContainer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A981728071A002314DF /* RDContainer.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AB41728071A002314DF /* RDPackage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A9A1728071A002314DF /* RDPackage.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AB51728071A002314DF /* RDPackageResource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28E94A9C1728071A002314DF /* RDPackageResource.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AB71728071A002314DF /* RDSpineItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28E94AA01728071A002314DF /* RDSpineItem.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94AB81728071A002314DF /* SpineItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E94AA21728071A002314DF /* SpineItemController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28E94ABA1728071A002314DF /* reader.css in Resources */ = {isa = PBXBuildFile; fileRef = 28E94AA51728071A002314DF /* reader.css */; };
+		28E94ABB1728071A002314DF /* reader.html in Resources */ = {isa = PBXBuildFile; fileRef = 28E94AA61728071A002314DF /* reader.html */; };
+		28E94ABD17280748002314DF /* jquery-1.8.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 28E94AA41728071A002314DF /* jquery-1.8.2.min.js */; };
+		28E94ABE17280748002314DF /* reader.js in Resources */ = {isa = PBXBuildFile; fileRef = 28E94AA71728071A002314DF /* reader.js */; };
+		28E94AC9172811B5002314DF /* childrens-literature-20120722.epub in Resources */ = {isa = PBXBuildFile; fileRef = 28E94AC8172811B5002314DF /* childrens-literature-20120722.epub */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +57,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 28075E6B172801140020F643;
 			remoteInfo = "readium-arc";
+		};
+		28E94A79172802AC002314DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E94A73172802AC002314DF /* ePub3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABA72C241655382E003125FF;
+			remoteInfo = ePub3;
+		};
+		28E94A7B172802AC002314DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E94A73172802AC002314DF /* ePub3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABA4BAE016ADF5A600161B77;
+			remoteInfo = "ePub3-iOS";
+		};
+		28E94A7D172802AC002314DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E94A73172802AC002314DF /* ePub3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AB61CE4A1694845700299BB1;
+			remoteInfo = UnitTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -58,6 +104,47 @@
 		28075E9D172801140020F643 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28075E9F172801140020F643 /* readium_arcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readium_arcTests.h; sourceTree = "<group>"; };
 		28075EA0172801140020F643 /* readium_arcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = readium_arcTests.m; sourceTree = "<group>"; };
+		28075EB7172801A70020F643 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		28075EB9172801AF0020F643 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		28075EBB172801B50020F643 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		28E94A73172802AC002314DF /* ePub3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ePub3.xcodeproj; path = "readium-sdk/Platform/Apple/ePub3.xcodeproj"; sourceTree = "<group>"; };
+		28E94A811728071A002314DF /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		28E94A821728071A002314DF /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		28E94A831728071A002314DF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		28E94A841728071A002314DF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		28E94A851728071A002314DF /* BundleURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleURLProtocol.h; sourceTree = "<group>"; };
+		28E94A861728071A002314DF /* BundleURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleURLProtocol.m; sourceTree = "<group>"; };
+		28E94A871728071A002314DF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		28E94A881728071A002314DF /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		28E94A891728071A002314DF /* EPubURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPubURLProtocol.h; sourceTree = "<group>"; };
+		28E94A8A1728071A002314DF /* EPubURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPubURLProtocol.m; sourceTree = "<group>"; };
+		28E94A8B1728071A002314DF /* EPubURLProtocolBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPubURLProtocolBridge.h; sourceTree = "<group>"; };
+		28E94A8C1728071A002314DF /* EPubURLProtocolBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPubURLProtocolBridge.m; sourceTree = "<group>"; };
+		28E94A8D1728071A002314DF /* HTMLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLUtil.h; sourceTree = "<group>"; };
+		28E94A8E1728071A002314DF /* HTMLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLUtil.m; sourceTree = "<group>"; };
+		28E94A8F1728071A002314DF /* LocStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocStr.h; sourceTree = "<group>"; };
+		28E94A901728071A002314DF /* LocStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocStr.m; sourceTree = "<group>"; };
+		28E94A911728071A002314DF /* LocStrError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocStrError.h; sourceTree = "<group>"; };
+		28E94A921728071A002314DF /* LocStrError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocStrError.m; sourceTree = "<group>"; };
+		28E94A931728071A002314DF /* PackageResourceCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageResourceCache.h; sourceTree = "<group>"; };
+		28E94A941728071A002314DF /* PackageResourceCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageResourceCache.m; sourceTree = "<group>"; };
+		28E94A951728071A002314DF /* PackageResourceServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageResourceServer.h; sourceTree = "<group>"; };
+		28E94A961728071A002314DF /* PackageResourceServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageResourceServer.m; sourceTree = "<group>"; };
+		28E94A971728071A002314DF /* RDContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDContainer.h; sourceTree = "<group>"; };
+		28E94A981728071A002314DF /* RDContainer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RDContainer.mm; sourceTree = "<group>"; };
+		28E94A991728071A002314DF /* RDPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPackage.h; sourceTree = "<group>"; };
+		28E94A9A1728071A002314DF /* RDPackage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RDPackage.mm; sourceTree = "<group>"; };
+		28E94A9B1728071A002314DF /* RDPackageResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPackageResource.h; sourceTree = "<group>"; };
+		28E94A9C1728071A002314DF /* RDPackageResource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RDPackageResource.mm; sourceTree = "<group>"; };
+		28E94A9F1728071A002314DF /* RDSpineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDSpineItem.h; sourceTree = "<group>"; };
+		28E94AA01728071A002314DF /* RDSpineItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RDSpineItem.mm; sourceTree = "<group>"; };
+		28E94AA11728071A002314DF /* SpineItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpineItemController.h; sourceTree = "<group>"; };
+		28E94AA21728071A002314DF /* SpineItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpineItemController.m; sourceTree = "<group>"; };
+		28E94AA41728071A002314DF /* jquery-1.8.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.8.2.min.js"; sourceTree = "<group>"; };
+		28E94AA51728071A002314DF /* reader.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = reader.css; sourceTree = "<group>"; };
+		28E94AA61728071A002314DF /* reader.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reader.html; sourceTree = "<group>"; };
+		28E94AA71728071A002314DF /* reader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = reader.js; sourceTree = "<group>"; };
+		28E94AC8172811B5002314DF /* childrens-literature-20120722.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "childrens-literature-20120722.epub"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +152,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28075EBC172801B50020F643 /* libz.dylib in Frameworks */,
+				28075EBA172801AF0020F643 /* libxml2.dylib in Frameworks */,
+				28075EB8172801A70020F643 /* CFNetwork.framework in Frameworks */,
 				28075E70172801140020F643 /* UIKit.framework in Frameworks */,
 				28075E72172801140020F643 /* Foundation.framework in Frameworks */,
+				28E94A7F1728057B002314DF /* libePub3-iOS.a in Frameworks */,
 				28075E74172801140020F643 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,10 +178,14 @@
 		28075E63172801140020F643 = {
 			isa = PBXGroup;
 			children = (
+				28075EBB172801B50020F643 /* libz.dylib */,
+				28075EB9172801AF0020F643 /* libxml2.dylib */,
+				28075EB7172801A70020F643 /* CFNetwork.framework */,
 				28075E75172801140020F643 /* readium-arc */,
 				28075E99172801140020F643 /* readium-arcTests */,
 				28075E6E172801140020F643 /* Frameworks */,
 				28075E6D172801140020F643 /* Products */,
+				28E94A73172802AC002314DF /* ePub3.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +212,8 @@
 		28075E75172801140020F643 /* readium-arc */ = {
 			isa = PBXGroup;
 			children = (
+				28E94AC8172811B5002314DF /* childrens-literature-20120722.epub */,
+				28E94A801728071A002314DF /* RDServices */,
 				28075E7E172801140020F643 /* AppDelegate.h */,
 				28075E7F172801140020F643 /* AppDelegate.m */,
 				28075E87172801140020F643 /* MainStoryboard.storyboard */,
@@ -158,6 +255,68 @@
 				28075E9C172801140020F643 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28E94A74172802AC002314DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28E94A7A172802AC002314DF /* ePub3.dylib */,
+				28E94A7C172802AC002314DF /* libePub3-iOS.a */,
+				28E94A7E172802AC002314DF /* UnitTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28E94A801728071A002314DF /* RDServices */ = {
+			isa = PBXGroup;
+			children = (
+				28E94A811728071A002314DF /* AsyncSocket.h */,
+				28E94A821728071A002314DF /* AsyncSocket.m */,
+				28E94A831728071A002314DF /* BaseViewController.h */,
+				28E94A841728071A002314DF /* BaseViewController.m */,
+				28E94A851728071A002314DF /* BundleURLProtocol.h */,
+				28E94A861728071A002314DF /* BundleURLProtocol.m */,
+				28E94A871728071A002314DF /* Constants.h */,
+				28E94A881728071A002314DF /* Constants.m */,
+				28E94A891728071A002314DF /* EPubURLProtocol.h */,
+				28E94A8A1728071A002314DF /* EPubURLProtocol.m */,
+				28E94A8B1728071A002314DF /* EPubURLProtocolBridge.h */,
+				28E94A8C1728071A002314DF /* EPubURLProtocolBridge.m */,
+				28E94A8D1728071A002314DF /* HTMLUtil.h */,
+				28E94A8E1728071A002314DF /* HTMLUtil.m */,
+				28E94A8F1728071A002314DF /* LocStr.h */,
+				28E94A901728071A002314DF /* LocStr.m */,
+				28E94A911728071A002314DF /* LocStrError.h */,
+				28E94A921728071A002314DF /* LocStrError.m */,
+				28E94A931728071A002314DF /* PackageResourceCache.h */,
+				28E94A941728071A002314DF /* PackageResourceCache.m */,
+				28E94A951728071A002314DF /* PackageResourceServer.h */,
+				28E94A961728071A002314DF /* PackageResourceServer.m */,
+				28E94A971728071A002314DF /* RDContainer.h */,
+				28E94A981728071A002314DF /* RDContainer.mm */,
+				28E94A991728071A002314DF /* RDPackage.h */,
+				28E94A9A1728071A002314DF /* RDPackage.mm */,
+				28E94A9B1728071A002314DF /* RDPackageResource.h */,
+				28E94A9C1728071A002314DF /* RDPackageResource.mm */,
+				28E94A9F1728071A002314DF /* RDSpineItem.h */,
+				28E94AA01728071A002314DF /* RDSpineItem.mm */,
+				28E94AA11728071A002314DF /* SpineItemController.h */,
+				28E94AA21728071A002314DF /* SpineItemController.m */,
+				28E94AA31728071A002314DF /* WebResources */,
+			);
+			name = RDServices;
+			path = ../../ReadiumIntegration/RDServices;
+			sourceTree = "<group>";
+		};
+		28E94AA31728071A002314DF /* WebResources */ = {
+			isa = PBXGroup;
+			children = (
+				28E94AA41728071A002314DF /* jquery-1.8.2.min.js */,
+				28E94AA51728071A002314DF /* reader.css */,
+				28E94AA61728071A002314DF /* reader.html */,
+				28E94AA71728071A002314DF /* reader.js */,
+			);
+			path = WebResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +377,12 @@
 			mainGroup = 28075E63172801140020F643;
 			productRefGroup = 28075E6D172801140020F643 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 28E94A74172802AC002314DF /* Products */;
+					ProjectRef = 28E94A73172802AC002314DF /* ePub3.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				28075E6B172801140020F643 /* readium-arc */,
@@ -226,16 +391,45 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		28E94A7A172802AC002314DF /* ePub3.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = ePub3.dylib;
+			remoteRef = 28E94A79172802AC002314DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28E94A7C172802AC002314DF /* libePub3-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libePub3-iOS.a";
+			remoteRef = 28E94A7B172802AC002314DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28E94A7E172802AC002314DF /* UnitTests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = UnitTests;
+			remoteRef = 28E94A7D172802AC002314DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		28075E6A172801140020F643 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E94ABD17280748002314DF /* jquery-1.8.2.min.js in Resources */,
+				28E94ABE17280748002314DF /* reader.js in Resources */,
 				28075E7A172801140020F643 /* InfoPlist.strings in Resources */,
 				28075E82172801140020F643 /* Default.png in Resources */,
 				28075E84172801140020F643 /* Default@2x.png in Resources */,
 				28075E86172801140020F643 /* Default-568h@2x.png in Resources */,
 				28075E89172801140020F643 /* MainStoryboard.storyboard in Resources */,
+				28E94ABA1728071A002314DF /* reader.css in Resources */,
+				28E94ABB1728071A002314DF /* reader.html in Resources */,
+				28E94AC9172811B5002314DF /* childrens-literature-20120722.epub in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +467,22 @@
 				28075E7C172801140020F643 /* main.m in Sources */,
 				28075E80172801140020F643 /* AppDelegate.m in Sources */,
 				28075E8C172801140020F643 /* ViewController.m in Sources */,
+				28E94AA81728071A002314DF /* AsyncSocket.m in Sources */,
+				28E94AA91728071A002314DF /* BaseViewController.m in Sources */,
+				28E94AAA1728071A002314DF /* BundleURLProtocol.m in Sources */,
+				28E94AAB1728071A002314DF /* Constants.m in Sources */,
+				28E94AAC1728071A002314DF /* EPubURLProtocol.m in Sources */,
+				28E94AAD1728071A002314DF /* EPubURLProtocolBridge.m in Sources */,
+				28E94AAE1728071A002314DF /* HTMLUtil.m in Sources */,
+				28E94AAF1728071A002314DF /* LocStr.m in Sources */,
+				28E94AB01728071A002314DF /* LocStrError.m in Sources */,
+				28E94AB11728071A002314DF /* PackageResourceCache.m in Sources */,
+				28E94AB21728071A002314DF /* PackageResourceServer.m in Sources */,
+				28E94AB31728071A002314DF /* RDContainer.mm in Sources */,
+				28E94AB41728071A002314DF /* RDPackage.mm in Sources */,
+				28E94AB51728071A002314DF /* RDPackageResource.mm in Sources */,
+				28E94AB71728071A002314DF /* RDSpineItem.mm in Sources */,
+				28E94AB81728071A002314DF /* SpineItemController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +595,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "readium-arc/readium-arc-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${SDKROOT}/usr/include/libxml2",
+					"$(SRCROOT)/readium-sdk/ePub3/**",
+				);
 				INFOPLIST_FILE = "readium-arc/readium-arc-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -396,6 +610,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "readium-arc/readium-arc-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${SDKROOT}/usr/include/libxml2",
+					"$(SRCROOT)/readium-sdk/ePub3/**",
+				);
 				INFOPLIST_FILE = "readium-arc/readium-arc-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -455,6 +673,7 @@
 				28075EA6172801140020F643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28075EA7172801140020F643 /* Build configuration list for PBXNativeTarget "readium-arcTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +682,7 @@
 				28075EA9172801140020F643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

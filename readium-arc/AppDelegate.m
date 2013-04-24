@@ -7,12 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import "BundleURLProtocol.h"
+#import "EPubURLProtocol.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [NSURLProtocol registerClass:[BundleURLProtocol class]];
+    
+    [NSURLProtocol registerClass:[EPubURLProtocol class]];
+    
     return YES;
 }
 							
